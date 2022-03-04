@@ -258,6 +258,7 @@ body {
 /* GALLERY */
 
 #gallery {
+    background: #eee;
     width: 100%;
     margin: 0 auto;
     padding: 50px;
@@ -265,6 +266,7 @@ body {
 }
 
 .gallery-container {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
@@ -284,7 +286,7 @@ body {
 #footer {
     background: #232323;
     width: 100%;
-    padding: 40px;
+    padding: 40px 0;
     color: #eee;
     text-align: center;
     letter-spacing: 2px;

@@ -1,12 +1,19 @@
 #navbar {
     background: rgba(0, 0, 0, 0.6);
-    height: 180px;
+    height: 200px;
     position: absolute;
 }
 
 .navbar-container {
     flex-direction: column;
+    justify-content: center;
     padding: 20px 0;
+}
+.logo{
+    border-bottom: 1px solid #555;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
 }
 
 .navbar {
@@ -14,7 +21,7 @@
 }
 
 .navbar ul {
-
+    justify-content: center;
     flex-direction: column;
     text-align: center;
 }
@@ -23,6 +30,14 @@
     border-top: 1px solid #555;
     border-bottom: 1px solid #555;
     padding: 8px 0;
+}
+
+/* SHOWCASE */
+
+.showcase-container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
 }
 
 /* CLIENTS */
@@ -51,24 +66,25 @@
 
 /* PRODUCTS */
 
-.products-container{
+.products-container {
     flex-direction: column;
 }
 
 /* COMMENTS */
-.comment{
+.comment {
     flex-direction: column;
     font-size: 16px;
     align-items: flex-end;
 }
 
-.comment-image{
+.comment-image {
     margin-bottom: 10px;
     height: 50px;
 }
 
 /* GALLERY */
 
-.gallery-container{
+
+.gallery-container {
     grid-template-columns: repeat(1, 1fr);
 }
